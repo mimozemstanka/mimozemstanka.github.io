@@ -1,0 +1,122 @@
+html {
+	overflow-y: scroll;
+}
+
+body {
+	background-color: #969696;
+	background-image: url("obr/pozadie.png");
+	/*background-image: url("obr/pozadie.png");
+	 */
+	color: #000;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+#menu {
+	clear: both;
+	//color: #069;
+	overflow: hidden;
+	margin: auto;
+	//width: 50%;
+	//background-color: #000;
+	padding: 0.7ex;
+	border-top: 0px solid #ccc;
+	border-bottom: 0px solid #069;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	margin: auto;
+}
+
+#menu a {
+	padding: 0.5ex 1ex;
+	//color: #fff;
+}
+
+#menu a:hover {
+	background-color: #069;
+}
+
+#main {
+	//margin: 0 0 0 160px;
+	margin: auto;
+	height: 100%;
+	border: 00px solid ;
+	//max-width:29cm;
+	//min-width:20cm;
+	overflow-y: scroll;
+	overflow-x: scroll;
+
+	min-height: 5cm;
+	//max-width: 5cm;
+}
+
+#main img{
+	min-height: 12cm;
+	width: 100%;
+}
+
+
+.left {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.right {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+
+table.stranat {
+	border: 1px solid;
+	margin: auto;
+}
+td.strana {
+	width: 50%;
+}
+tr.stranatr {
+	//height:100;
+}
+
+
+
+
+/*
+img {
+	display:block;
+}
+*/
+.img1 {
+	max-width: 800px;
+	min-width: 300px;
+}
+.img2 {
+	max-height: 8cm;
+}
+
+
+@media screen and (max-width: 900px) {
+  .stlpec {
+    flex: 100%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-height: 15) {
+	#main {
+		margin: auto;
+		border: 10px solid ;
+		height: 100%;
+		overflow-y: scroll;
+		overflow-x: scroll;
+	}
+}
