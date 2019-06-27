@@ -53,11 +53,12 @@ body {
 	//max-width: 5cm;
 }
 
+/*
 #main img{
 	min-height: 12cm;
 	width: 100%;
 }
-
+*/
 
 .left {
 	float: left;
@@ -96,12 +97,15 @@ img {
 }
 */
 .img1 {
-	max-width: 800px;
+	width: 99%;
+	max-width: 15cm;
 	min-width: 300px;
+	overflow-x: scroll
 }
 .img2 {
 	max-height: 8cm;
 }
+
 
 
 @media screen and (max-width: 900px) {
