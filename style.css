@@ -99,8 +99,12 @@ img {
 .img1 {
 	width: 99%;
 	/*max-width: 15cm;*/
+	max-width: 15cm;
 	min-width: 300px;
-	overflow-x: scroll
+	overflow-x: scroll;
+	float:left;
+	display:block;
+	margin: auto
 }
 .img2 {
 	max-height: 8cm;
