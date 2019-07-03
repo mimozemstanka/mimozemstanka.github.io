@@ -98,8 +98,8 @@ img {
 */
 .img1 {
 	width: 99%;
+	max-width: 559px;
 	/*max-width: 15cm;*/
-	max-width: 15cm;
 	min-width: 300px;
 	overflow-x: scroll;
 	display:block;
@@ -107,11 +107,12 @@ img {
 	float:left
 }
 .img2 {
-	max-height: 8cm;
+	display:block;
 }
 
 @media screen and(-webkit-min-device-pixel-ratio: 3) {
 	.img1 {
+		width: 99%;
 		max-width: 99%
 	}
 }
