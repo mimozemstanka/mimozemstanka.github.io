@@ -118,7 +118,9 @@ img {
 }
 */
 
-@media (max-resolution:300dpi) {
+@media (max-resolution:120dpi) {
+	/* thinkpad x200: 96, xiaomi A1: 288
+	 */
 	.img1 {
 	max-width: 559px
 	}
