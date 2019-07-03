@@ -98,7 +98,7 @@ img {
 */
 .img1 {
 	width: 99%;
-	max-width: 559px;
+	/*max-width: 559px;
 	/*max-width: 15cm;*/
 	min-width: 300px;
 	overflow-x: scroll;
