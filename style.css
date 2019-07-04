@@ -60,6 +60,7 @@ body {
 }
 */
 
+
 .left {
 	float: left;
 	margin: 0;
@@ -100,13 +101,23 @@ img {
 	width: 99%;
 	/*max-width: 559px;*/
 	/*max-width: 15cm;*/
-	min-width: 300px;
+	min-width: 450px;
 	overflow-x: scroll;
 	display:block;
 	margin: auto;
 	float:left
 }
 .img2 {
+	display:block;
+}
+
+.img_obsah {
+	/* position: absolute; prekryvanie obrazku na pozadi */
+	padding-left: 0.5cm;
+	padding-bottom: 0.4cm;
+	width: 80%;
+	/*max-width: 559px;*/
+	/*max-width: 15cm;*/
 	display:block;
 }
 
@@ -118,11 +129,12 @@ img {
 }
 */
 
-@media (max-resolution:120dpi) {
+@media  (max-resolution:120dpi) {
 	/* thinkpad x200: 96, xiaomi A1: 288
 	 */
 	.img1 {
-	max-width: 559px
+	max-width: 559px;
+	min-width: 450px
 	}
 }
 
